@@ -11,7 +11,7 @@ function Header(props) {
       <nav className="navbar navbar-expand-lg bg-primary py-2 px-2 px-md-5" data-bs-theme="dark">
         <div className="container-fluid">
           <Link to="/" className="navbar-brand" href="#">
-            <h4 className='m-0 text-white'>Union Vinyl</h4>
+            <h4 className='m-0 text-white'>Yvette</h4>
           </Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>

@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
-import nigel from '../../assets/imgs/nigel.jpg';
+import anna from '../../assets/imgs/anna.jpg';
+
 
 function PrimaryAbout(props) {
   return (
@@ -15,7 +16,7 @@ function PrimaryAbout(props) {
         </div>
 
         <div className='col-lg-5 rounded p-4'>
-          <img width='80%' src={nigel}/>
+          <img width='80%' src={anna}/>
         </div>
 
       </div>
