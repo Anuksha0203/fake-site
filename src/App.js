@@ -1,7 +1,8 @@
 import {useEffect, useState} from 'react';
-import Header from './components/headers/MainHeader';
+import Header2 from './components/headers/MainHeader2';
 import Footer from './components/footers/MainFooter';
 import {Outlet} from 'react-router-dom';
+import 'bootswatch/dist/minty/bootstrap.min.css';
 
 import client from './project/client-settings.json';
 
@@ -32,7 +33,7 @@ function App() {
 
   return (
     <>
-      <Header data={data} />
+      <Header2 data={data} />
       {
         data.business && Object.keys(data.business).length !== 0 ?
         <Outlet context={data} /> : ''

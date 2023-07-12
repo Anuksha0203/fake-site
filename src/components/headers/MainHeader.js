@@ -1,6 +1,7 @@
 import {Link, useLocation} from 'react-router-dom';
 import PropTypes from 'prop-types';
 import {getCartQuantity} from '../../helpers/quantities';
+
 function Header(props) {
   const location = useLocation();
   const {pathname} = location;
