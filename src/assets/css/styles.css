@@ -1,0 +1,5 @@
+.container:hover {
+    transform: scale(1.1); /* Increase the size */
+    /* Add any other styles you want to apply when hovering */
+    /* ... */
+}
