@@ -11,7 +11,7 @@ function Cart() {
         <div className='col-12 offset-md-3 col-md-6 px-md-4'>
           <h2 className='mb-4'>Your Cart</h2>
           <CartItems quantityAdjust={true} />
-          <Link to={'/checkout'} className={'btn btn-primary w-100 mt-3 rounded' + (getCartQuantity() === 0 ? ' disabled' : '')}>Go to Checkout</Link>
+          <Link to={'/checkout'} className={'btn btn-primary disabled w-100 mt-3 rounded' + (getCartQuantity() === 0 ? ' disabled' : '')}>Go to Checkout</Link>
         </div>
 
       </div>

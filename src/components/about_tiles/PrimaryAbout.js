@@ -10,7 +10,7 @@ function PrimaryAbout(props) {
 
         <div className="col-lg-7 p-lg-5 mx-auto my-5" > {/* my-3 py-3 mx-auto*/}
           <h1 className="display-4 fw-normal">About Us</h1>
-          <p className="lead fw-normal">
+          <p className="lead fw-normal" style={{color: 'gray'}}>
               At Yvette, we have been introducing aromatic scents to the world since 1927 with our own finest flowers, spices and wood.
               We actively create new fragrances with a combination of our own ingredients.
             <br/>

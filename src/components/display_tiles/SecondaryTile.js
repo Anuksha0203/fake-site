@@ -1,8 +1,10 @@
+import '../../assets/css/styles.css';
 
 const vinyl = require('../../assets/imgs/vinyl.png');
 const shirt = require('../../assets/imgs/shirt.png');
 const lavender = require('../../assets/imgs/lavender.png')
 const sage = require('../../assets/imgs/sage.png')
+
 
 function SecondaryTile() {
   return (

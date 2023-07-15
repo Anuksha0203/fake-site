@@ -1,7 +1,7 @@
 import {Link} from 'react-router-dom';
 import PropTypes from 'prop-types';
-
-import anna from '../../assets/imgs/anna.jpg';
+import '../../assets/css/styles.css';
+import anna from '../../assets/imgs/anna.png';
 
 function PrimaryTile(props) {
   return (
@@ -13,7 +13,7 @@ function PrimaryTile(props) {
         backgroundPosition: '50%',
       }}>
         <div className="col-md-8 p-lg-5 mx-auto my-5">
-          <h1 className="display-4 fw-normal">{props.tradingName}</h1>
+          <h1 className="display-4 fw-normal text-light">{props.tradingName}</h1>
           <p className="lead text-dark">Family perfumers since 1927</p>
           <a href="/shop">
             <button type="button" class="btn btn-outline-dark" >Our Shop</button>
