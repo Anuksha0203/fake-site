@@ -14,9 +14,9 @@ function PrimaryTile(props) {
       }}>
         <div className="col-md-8 p-lg-5 mx-auto my-5">
           <h1 className="display-4 fw-normal text-light">{props.tradingName}</h1>
-          <p className="lead text-dark">Family perfumers since 1927</p>
+          <p className="lead text-light">Family perfumers since 1927</p>
           <a href="/shop">
-            <button type="button" class="btn btn-outline-dark" >Our Shop</button>
+            <button type="button" class="btn btn-outline-light" >Our Shop</button>
           </a>
         </div>
       </div>
