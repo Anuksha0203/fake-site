@@ -1,6 +1,7 @@
 import {Link, useLocation} from 'react-router-dom';
 import PropTypes from 'prop-types';
 import {getCartQuantity} from '../../helpers/quantities';
+import logo from '../../assets/imgs/logo.jpg';
 
 function Header2(props) {
   const location = useLocation();
@@ -10,6 +11,7 @@ function Header2(props) {
 return (
     <nav class="navbar navbar-expand-lg bg-light" data-bs-theme="light">
     <div class="container-fluid">
+        <img src={logo} width={50} height={50}/>
         <Link to="/" className="navbar-brand" href="#">
             <h4>Yvette</h4>
         </Link>
