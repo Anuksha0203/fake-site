@@ -1,7 +1,7 @@
 import {Link, useLocation} from 'react-router-dom';
 import PropTypes from 'prop-types';
 import {getCartQuantity} from '../../helpers/quantities';
-import logo from '../../assets/imgs/logo.jpg';
+import logo from '../../assets/imgs/logo.ico';
 
 function Header2(props) {
   const location = useLocation();
