@@ -11,8 +11,9 @@ function PrimaryAbout(props) {
         <div className="col-lg-7 p-lg-5 mx-auto my-5" > {/* my-3 py-3 mx-auto*/}
           <h1 className="display-4 fw-normal">About Us</h1>
           <p className="lead fw-normal" style={{color: 'gray'}}>
-              At Yvette, we have been introducing aromatic scents to the world since 1927 with our own finest flowers, spices and wood.
-              We actively create new fragrances with a combination of our own ingredients.
+              At Yvette, we believe that scents have the power to create reminiscent memories and evoke a range of emotions. We have been introducing aromatic scents to the world since 1927 with our own finest flowers, spices and wood.
+              We actively create new fragrances with a combination of our own ingredients. Our perfumers are all highly skilled and experienced, we understand that creating perfumes is not the same as creating any product, it is an artform requiring
+              compassion and a deep understanding of the senses.
             <br/>
             <br/>
               Our collection of perfumes range from exotic, refreshing scents to elegant and rich scents, with a variety to choose from. We provide perfumes for men, women and unisex.
