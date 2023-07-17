@@ -9,7 +9,7 @@ function Header2(props) {
   const page = pathname.split('/')[1];
 
 return (
-    <nav class="navbar navbar-expand-lg bg-light" data-bs-theme="light">
+    <nav class="navbar navbar-expand-lg bg-beige" data-bs-theme="light">
     <div class="container-fluid">
         <img src={logo} width={50} height={50}/>
         <Link to="/" className="navbar-brand" href="#">
