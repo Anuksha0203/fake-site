@@ -3,7 +3,7 @@ import MainProduct from '../product_tiles/MainProduct';
 function PrimaryFilteredProducts({products, title}) {
   return (
     <>
-      <div className='position-relative overflow-hidden p-3 p-md-5 m-md-3 mt-3 text-center bg-light'>
+      <div className='position-relative overflow-hidden p-3 p-md-5 m-md-3 mt-3 text-center bg-beige'>
         <h2 className='display-4 fw-normal mb-5'>{title}</h2>
         <div className='d-md-flex flex-md-equal w-100 my-md-3 ps-md-3 justify-content-center'>
           {products.map((product, index) => (
