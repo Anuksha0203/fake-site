@@ -1,6 +1,5 @@
 import {Link} from 'react-router-dom';
 import PropTypes from 'prop-types';
-import '../../assets/css/styles.css';
 import anna from '../../assets/imgs/anna.png';
 
 function PrimaryTile(props) {
@@ -16,7 +15,7 @@ function PrimaryTile(props) {
           <h1 className="display-4 fw-normal text-light">{props.tradingName}</h1>
           <p className="lead text-dark">Family perfumers since 1927</p>
           <a href="/shop">
-            <button type="button" class="btn btn-outline-dark" >Our Shop</button>
+            <button type="button" className="btn btn-outline-dark" >Our Shop</button>
           </a>
         </div>
       </div>
