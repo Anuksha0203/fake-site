@@ -10,7 +10,7 @@
     border-color: #EFDBCE;
 }
 .contain2{
-  /*  new: FDF4E3 one on logo: EFDBCE */
+  /*  new testing colour: FDF4E3 one on logo: EFDBCE */
     color:#FDF4E3;
     background-color: #175C4C;
     border-color: #EFDBCE;
@@ -26,4 +26,4 @@
     100% {
        opacity: 1;
     }
-   }
+}
