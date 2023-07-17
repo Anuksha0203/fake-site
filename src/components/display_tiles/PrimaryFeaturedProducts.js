@@ -6,7 +6,7 @@ function PrimaryFeaturedProducts({products}) {
   }
   const title = 'Featured Products';
   const featuredProducts = Object.values(products).filter(
-      (product) => product.featured === true,
+      (product) => product.Featured === true,
   );
   return (
     <>

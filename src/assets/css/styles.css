@@ -1,5 +1,29 @@
-.container:hover {
-    transform: scale(1.1); /* Increase the size */
-    /* Add any other styles you want to apply when hovering */
-    /* ... */
+
+.me-2{
+    color:#175C4C;
+    background-color: #FDF4E3;
+    border-color: #EFDBCE;
 }
+.contain1{
+    color:#175C4C;
+    background-color: #FDF4E3;
+    border-color: #EFDBCE;
+}
+.contain2{
+  /*  new: FDF4E3 one on logo: EFDBCE */
+    color:#FDF4E3;
+    background-color: #175C4C;
+    border-color: #EFDBCE;
+}
+.quote {
+    animation: animateMounting .4s;
+ }
+@keyframes animateMounting {
+    0% {
+       opacity: 0;
+    }
+   
+    100% {
+       opacity: 1;
+    }
+   }

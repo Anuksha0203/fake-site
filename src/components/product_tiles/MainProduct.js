@@ -44,7 +44,7 @@ function MainProduct(props) {
           <p className="mb-1" style={{height: '80px'}}>{props.product.name}</p>
           <small>{getCurrencySymbol(props.product.price.currency)}{(props.product.price.value/100).toFixed(2)}</small><br/><br/>
 
-          <Button href={'shop/' + props.id} color="primary" className="me-2" onClick={(e) => {
+          <Button href={'shop/' + props.id} className="me-2" onClick={(e) => {
             e.preventDefault(); navigate(props.id);
           }}>View</Button>
           <Button color='secondary' style={{}} onClick={(e) => {

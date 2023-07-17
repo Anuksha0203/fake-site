@@ -1,18 +1,19 @@
 import {Link, useLocation} from 'react-router-dom';
 import PropTypes from 'prop-types';
 import {getCartQuantity} from '../../helpers/quantities';
+import logo from '../../assets/imgs/logo.ico';
 
 function Header2(props) {
   const location = useLocation();
   const {pathname} = location;
   const page = pathname.split('/')[1];
-  const logo = require('../../assets/imgs/yvette-logo.png')
 
 return (
     <nav class="navbar navbar-expand-lg bg-light" data-bs-theme="light">
     <div class="container-fluid">
+        <img src={logo} width={50} height={50}/>
         <Link to="/" className="navbar-brand" href="#">
-            <h4>Yvette</h4>§
+            <h4>Yvette</h4>
         </Link>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
