@@ -14,7 +14,7 @@ function PrimaryContact(props) {
 
   return (
     <>
-      <div className="row text-bg-light p-3 p-md-5 m-md-3 overflow-hidden text-center">
+      <div className="row text-bg-beige p-3 p-md-5 m-md-3 overflow-hidden text-center">
 
         <div className="col-lg-6 p-lg-5 mx-auto my-5" > {/* my-3 py-3 mx-auto*/}
           <h1 className="display-4 fw-normal">Contact Us</h1>
@@ -45,7 +45,7 @@ function PrimaryContact(props) {
           </div>
         </div>
 
-        <form className='col-lg-6 bg-dark rounded p-4' onSubmit={(e) => {
+        <form className='col-lg-6 bg-teal rounded p-4' onSubmit={(e) => {
           e.preventDefault();
           submit();
         }}>
@@ -58,7 +58,7 @@ function PrimaryContact(props) {
           <textarea className="form-control my-3" placeholder='Message' rows="4" value={message} onChange={(e) => {
             setMessage(e);
           }} required></textarea>
-          <Button color='secondary' className='w-100 mb-0'>Submit</Button>
+          <Button color='beige' className='w-100 mb-0'>Submit</Button>
           <p className='text-success text-center mt-3 d-none' id='contact-response'>Thank you for getting in touch!<br/>We will respond as soon as possible.</p>
         </form>
 
