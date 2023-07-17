@@ -10,7 +10,7 @@ function SecondaryTile() {
   return (
     <>
       <div className="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3 justify-content-center">
-        <div className="bg-light mt-3 mt-md-0 me-md-3 pt-3 px-3 pt-md-5 px-lg-5 text-center overflow-hidden w-md-50">
+        <div className="bg-beige mt-3 mt-md-0 me-md-3 pt-3 px-3 pt-md-5 px-lg-5 text-center overflow-hidden w-md-50">
           <div className="my-3 py-3">
             <h2 className="display-5">Lavender</h2>
             <p className="lead">Lavender, Bitter Orange</p>
@@ -19,7 +19,7 @@ function SecondaryTile() {
             <img src={lavender} width='100%' />
           </a>
         </div>
-        <div className="text-bg-dark mt-3 mt-md-0 me-md-3 pt-3 px-3 pt-md-5 px-lg-5 text-center overflow-hidden w-md-50">
+        <div className="text-bg-teal mt-3 mt-md-0 me-md-3 pt-3 px-3 pt-md-5 px-lg-5 text-center overflow-hidden w-md-50">
           <div className="my-3 py-3">
             <h2 className="display-5 text-white">Sage</h2>
             <p className="lead">Sage, Citrus</p>
