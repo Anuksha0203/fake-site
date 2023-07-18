@@ -1,9 +1,14 @@
 
 .me-2{
-    color:#175C4C;
-    background-color: #FDF4E3;
-    border-color: #EFDBCE;
+    color:#ffffff;
+    background-color: #59937b;
+    border-color: #59937b;
 }
+.me-2:hover {
+    background-color:#416b59;
+    transition: 0.5s;
+}
+
 .contain1{
     color:#175C4C;
     background-color: #FDF4E3;
