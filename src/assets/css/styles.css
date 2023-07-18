@@ -15,6 +15,9 @@
     background-color: #175C4C;
     border-color: #EFDBCE;
 }
+.letters{
+    color: #8A6742
+}
 .quote {
     animation: animateMounting .4s;
  }
