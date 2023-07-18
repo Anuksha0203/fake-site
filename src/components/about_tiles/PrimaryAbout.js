@@ -9,7 +9,7 @@ function PrimaryAbout(props) {
       <div className="row text-bg-beige p-3 p-md-5 m-md-3 overflow-hidden text-center">
 
         <div className="col-lg-7 p-lg-5 mx-auto my-5" > {/* my-3 py-3 mx-auto*/}
-          <h1 className="display-4 fw-normal">About Us</h1>
+          <h1 className="display-4 fw-normal letters">About Us</h1>
           <p className="lead fw-normal quote" style={{color: 'gray'}}>
               At Yvette, we believe that scents have the power to create reminiscent memories and evoke a range of emotions. We have been introducing aromatic scents to the world since 1927 with our own finest flowers, spices and wood.
               We actively create new fragrances with a combination of our own ingredients. Our perfumers are all highly skilled and experienced, we understand that creating perfumes is not the same as creating any product, it is an artform requiring
