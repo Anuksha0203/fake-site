@@ -32,9 +32,11 @@ function MainProduct(props) {
   return (
     <>
       <Card className={'text-center ' + props.className} style={{maxWidth: '300px', display: 'inline-block'}}>
+        {
+          props.product.images && props.product.images.length > 0 ?
         <CardImg src={props.product.images[0]}
           style={{borderBottomLeftRadius: '0', borderBottomRightRadius: '0', height: '210px'}}
-        />
+        /> : ''}
         {
           props.product.inventory > 0 ?
           <div className="text-white px-2 bg-success">In Stock</div> :
