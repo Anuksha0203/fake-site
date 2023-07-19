@@ -9,7 +9,7 @@ function Header2(props) {
   const page = pathname.split('/')[1];
 
 return (
-    <nav class="navbar navbar-expand-lg bg-light" data-bs-theme="light">
+    <nav class="navbar navbar-expand-lg bg-beige" data-bs-theme="light">
     <div class="container-fluid">
         <img src={logo} width={50} height={50}/>
         <Link to="/" className="navbar-brand" href="#">
@@ -19,17 +19,17 @@ return (
         <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarColor03">
-        <ul class="navbar-nav me-auto">
+        <ul class="navbar-nav me-auto letters">
             <li class="nav-item">
-            <a class="nav-link" href="/">Home
+            <a class="nav-link letters" href="/">Home
                 <span class="visually-hidden">(current)</span>
             </a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="/shop">Shop</a>
+            <a class="nav-link letters" href="/shop">Shop</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="/about">About</a>
+            <a class="nav-link letters" href="/about">About</a>
             </li>
         </ul>
         <a href={props.data.socials ? props.data.socials.facebook : ''} target="_blank" className="d-block link-dark text-decoration-none me-3" rel="noreferrer">
@@ -49,7 +49,7 @@ return (
             </a>
             <Link to="cart" className="d-block link-dark text-decoration-none me-3">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="25"><path fill="black" d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>
-              <span id='cart-quantity' className={'badge rounded-pill bg-info ' + (getCartQuantity() === 0 ? 'd-none' : '')} style={{position: 'absolute', top: '50%', transform: 'translate(5px, -50%)'}}>
+              <span id='cart-quantity' className={'badge rounded-pill bg-teal ' + (getCartQuantity() === 0 ? 'd-none' : '')} style={{ position: 'absolute', top: '50%', transform: 'translate(5px, -50%)'}}>
                 {getCartQuantity()}
               </span>
             </Link>
